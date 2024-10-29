@@ -2,6 +2,7 @@
   "name": "boilerplate-app-router",
   "version": "0.1.0",
   "private": true,
+  "lint-staged": "./.lintstagedrc.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
