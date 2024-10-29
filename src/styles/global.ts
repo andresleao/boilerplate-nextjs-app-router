@@ -1,3 +1,4 @@
+'use client';
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
@@ -9,6 +10,14 @@ const GlobalStyles = createGlobalStyle`
 
     html {
         font-size: 62.5%; // 1REM = 10px (10 / 16 =  62.5%)
+    }
+
+    html, body, #__next {
+        height: 100%;
+    }
+
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 `;
 
