@@ -4,7 +4,6 @@ const Main = ({
   title = 'React Avançado',
   description = 'Typescript ReactJS, NextJS e Styled Components'
 }) => {
-  const bill = "";
   return (
     <S.Wrapper>
       <S.Logo
