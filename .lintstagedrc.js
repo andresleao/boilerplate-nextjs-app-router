@@ -4,6 +4,4 @@ module.exports = {
     `eslint --fix ${filenames.join(' ')}`
   ]
 };
-
-  //TESTE hjh
-   //`npm test -- --findRelatedTests ${filenames.join(' ')}`
+//`npm test -- --findRelatedTests ${filenames.join(' ')}`
