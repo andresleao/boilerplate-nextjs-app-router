@@ -5,4 +5,5 @@ module.exports = {
   ]
 };
 
+  //TESTE
    //`npm test -- --findRelatedTests ${filenames.join(' ')}`
